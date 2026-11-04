@@ -19,6 +19,7 @@ abstract class Employee {
 
 }
 
+
 class Manager extends Employee {
     calculatePay(): number {
         return this.baseSalary * 1.2;
